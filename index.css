@@ -44,9 +44,13 @@ a {
     font-size: 13px;
 }
 
+#item-4 {
+    margin-left: 1010px;
+}
+
 #item-4 img {
-    height: 40px;
-    width: 55px;
+    height: 50px;
+    width: 65px;
 }
 
 .list {
@@ -75,7 +79,7 @@ li {
 }
 
 button {
-
+    margin-top: -5px;
     width: 135px;
     height: 40px;
     font-family: "Nunito Sans", sans-serif;
@@ -86,13 +90,14 @@ button {
 }
 
 button p {
-    margin: 2px;
+    margin-top: -2px;
     font-size: 12px;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     color: rgb(55, 112, 255);
     text-align: center;
 }
+
 
 .part2 button:hover {
     color: white;
@@ -105,7 +110,7 @@ button p {
 
 .divs {
     background-color: rgb(245, 247, 247);
-    height: 100%;
+    height: fit-content;
 }
 
 .searchdiv {
@@ -127,7 +132,9 @@ button p {
     padding: 15px;
 
 }
-
+.text:hover{
+    border:1.5px solid rgb(55, 112, 255);
+}
 .search {
     margin-top: 0px;
     padding: 0px 25px;
@@ -183,6 +190,7 @@ button p {
     font-weight: bold;
 
 }
+
 div input {
     width: 350px;
     border: none;
@@ -212,9 +220,9 @@ div input {
 .fellowship {
     display: flex;
     width: 1000px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 25px 30px;
-    height: 800px;
+    /* height: 800px; */
     justify-content: center;
     margin-left: 160px;
 
@@ -223,7 +231,7 @@ div input {
 .ffirst {
     width: 650px;
     height: 450px;
-   
+
     /* position: relative; */
     /* overflow: hidden; */
     background-color: rgb(247, 209, 85);
@@ -242,17 +250,20 @@ div input {
     padding: 0px;
     /* max-height: %; */
 }
-.infofel{
-    padding:  0px 25px;
+
+.infofel {
+    padding: 0px 25px;
     font-family: "Nunito Sans", sans-serif;
-    color:#504009 ;
+    color: #504009;
 }
-#intro h2{
+
+#intro h2 {
     margin: 0%;
     padding-top: 0%;
     font-size: 48px;
 }
-.fsec{
+
+.fsec {
     padding-left: 15px;
     width: 350;
     height: 470;
@@ -262,32 +273,38 @@ div input {
     background-color: white;
     border-radius: 30px;
 }
-#head1{
+
+#head1 {
     /* border: 2px solid rgb(11, 13, 14); */
     padding: 7px 15px;
 }
-#head1 h2{
+
+#head1 h2 {
     font-size: 36px;
     line-height: 40px;
     letter-spacing: -0.005em;
     font-weight: 900;
     color: rgb(39, 51, 57);
     font-family: "Nunito Sans", sans-serif;
-}#head1 h3{
+}
+
+#head1 h3 {
     font-size: 18px;
     line-height: 28px;
     color: rgb(92, 104, 109);
     font-weight: 600;
     font-family: "Nunito Sans", sans-serif;
 }
-ul{
+
+ul {
     margin-top: 0%;
     height: 40px;
     width: 200px;
     padding: 20px;
     margin-left: -15px;
 }
-.links li{
+
+.links li {
 
     float: left;
     list-style: none;
@@ -300,43 +317,50 @@ ul{
     margin-top: -25px;
 
 }
-.links li:hover{
+
+.links li:hover {
     border: 2px solid rgb(46, 140, 207);
 }
-#ffsec2{
+
+#ffsec2 {
     /* display: flex; */
-  float: right;  
-  width: 100%;
-  margin-top: -40px;
- 
-  /* border: 2px solid rgb(46, 140, 207); */
+    float: right;
+    width: 100%;
+    margin-top: -40px;
+
+    /* border: 2px solid rgb(46, 140, 207); */
 }
-.fsec2{
+
+.fsec2 {
     /* display: flex; */
-   
+
     text-align: left;
-    
-    
+
+
 }
-#fsec21{
+
+#fsec21 {
     /* border: 2px solid rgb(11, 13, 14); */
     width: 250px;
     height: 50px;
     padding: 1px 15px;
-    box-shadow: -2px 0px  rgb(46, 140, 207);;
-    background-color: rgb(255, 255, 255) ;
-    
+    box-shadow: -2px 0px rgb(46, 140, 207);
+    ;
+    background-color: rgb(255, 255, 255);
+
     margin-left: 15px;
-    
+
 }
-#fsec2p1{
+
+#fsec2p1 {
     margin-top: 2px;
     color: rgb(180, 190, 192);
     font-family: Montserrat, sans-serif;
     font-weight: 600;
 
 }
-#fsec2p2{
+
+#fsec2p2 {
     margin-top: -15px;
     font-size: 18px;
     /* line-height: 28px; */
@@ -344,29 +368,33 @@ ul{
     color: rgb(39, 51, 57);
     font-family: "Nunito Sans", sans-serif;
 }
-#fsec22{
+
+#fsec22 {
     margin-left: 15px;
     margin-top: 10px;
     width: 280px;
- 
+
 }
-.fsec_2{
+
+.fsec_2 {
     /* margin-left: -5px; */
     border-radius: 8px;
     background-color: rgb(240, 244, 255);
-    height: 60px;  
+    height: 60px;
 }
-#fsec2p3{
+
+#fsec2p3 {
     padding-top: 10px;
-   margin-top: 10px;
-   padding-left: 20px;
-   line-height: 16px;
-   letter-spacing: 0.12em;
-   font-weight: 800;
-   color: rgb(128, 151, 242);
-   font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+    padding-left: 20px;
+    line-height: 16px;
+    letter-spacing: 0.12em;
+    font-weight: 800;
+    color: rgb(128, 151, 242);
+    font-family: "Montserrat", sans-serif;
 }
-#fsec2p4{
+
+#fsec2p4 {
     margin-top: -10px;
     padding-left: 20px;
     font-weight: 800;
@@ -374,8 +402,320 @@ ul{
     font-family: "Nunito Sans", sans-serif;
     line-height: 28px;
 }
-#apply1{
+
+#apply1 {
     margin-top: 10px;
     width: 280px;
+
+}
+
+.hosted {
+    margin-top: -20px;
+
+    height: 500px;
+    display: flex;
+    width: 1000px;
+    padding: 25px 30px;
+    justify-content: center;
+    margin-left: 160px;
+}
+
+.break {
+
+    margin-left: -20px;
+    /* border: 3px solid rgb(44, 44, 3); */
+    height: 500px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.break img {
+    height: 500px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.hevents {
+    margin-left: 30px;
+    /* border: 3px solid rgb(44, 44, 3); */
+    box-shadow: 1px 1px 4px 1px grey;
+    height: 483px;
+    width: 700px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    background-color: white;
+}
+
+.hevents h4 {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.12em;
+    font-weight: 800;
+    color: rgb(142, 152, 156);
+    font-family: Montserrat, sans-serif;
+}
+
+.ht:hover {
+    border: 2px solid rgb(55, 112, 255);
+
+}
+
+.hostCont {
+    padding: 30px;
+    margin-top: -230px;
+}
+
+.hostCont h2 {
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.005em;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.hostCont p {
+    margin-top: -20px;
+    font-size: 15px;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.ht {
+    border: 2px solid rgb(206, 205, 205);
+    width: 640px;
+    height: 185px;
+    border-radius: 8px;
+}
+
+.hthead p {
+    font-size: 15px;
+    color: rgb(142, 152, 156);
+    font-family: "Nunito Sans", sans-serif;
+}
+
+#ht2 {
+    margin-top: 20px;
+    display: flexbox;
+}
+
+#ht11 {
+    /* border: 2px solid green; */
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#ht21 {
+    /* border: 2px solid green; */
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#ht11 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+#ht21 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+#ht12 {
+    /* display: flex; */
+    /* border: 2px solid rgb(0, 0, 0); */
+    width: 420px;
+    height: 150px;
+    margin-left: 200px;
+    margin-top: -170px;
+}
+
+.date1 {
+    letter-spacing: 0.1em;
+    font-size: 12px;
+    color: rgb(74, 74, 74);
+    margin-top: -10px;
+    display: flex;
+    float: left;
+   font-weight: 550;
+    height: 26px;
+    margin-left: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(245, 247, 247);
+    border-radius: 16px;
+    background-color: rgb(245, 247, 247);
+
+}
+
+.date1 p {
+    margin-top: -2px;
+    padding: 2px 4px;
+}
+
+.date1 svg {
+    margin-top: 2px;
+    padding: 2px 2px;
+}
+
+.hthead {
+    margin-left: 12px;
+    margin-top: -20px;
+}
+
+.map {
+    /* border: 2px solid rgb(0, 0, 0); */
+    height: 20px;
+    margin-top: -15px;
+
+}
+
+.map1 {
+    float: left;
+    /* display: block; */
+}
+
+.map p {
+    float: right;
+    margin-right: 270px;
+    margin-top: -1px;
+    font-size: 12px;
+
+    /* letter-spacing: 0.12px; */
+    font-weight: 700;
+    color: rgb(142, 152, 156);
+    font-family: Montserrat, sans-serif;
+    /* margin: 0px; */
+    text-transform: uppercase;
+}
+
+#ht22 {
+    /* border: 2px solid rgb(0, 0, 0); */
+    width: 420px;
+    height: 150px;
+    margin-left: 200px;
+    margin-top: -165px;
+}
+
+.hthead h2 {
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: -0.005em;
+    font-weight: 700;
+    color: rgb(39, 51, 57);
+    font-family: "Nunito Sans", sans-serif;
+}
+
+#mumbai {
+    margin-right: 290px;
+}
+
+footer {
+    /* border: 2px solid rgb(0, 0, 0); */
+    background-color: rgb(245, 247, 247);
+    height: 500px;
+}
+
+.pre-end {
+    /* border: 2px solid rgb(0, 0, 0); */
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 270px;
+    padding-bottom: 40px;
+}
+.pre-end1{
+    /* border: 2px solid rgb(0, 0, 0); */
+    width: 400px;
+    margin-left: 170px;
+}
+.pre-end1 p{
+    font-size: 35px;
+    /* line-height: 64px; */
+    letter-spacing: -0.01em;
+    font-weight: 900;
+    color: rgb(32, 40, 45);
+    font-family: "Nunito Sans", sans-serif;
+}
+.ccs{
+    display: flex;
+    /* border: 2px solid rgb(0, 0, 0); */
+    list-style: none;
+    width: 290px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 120px;
+    /* margin-top: px; */
+
+}
+.heading{
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgb(142, 152, 156);
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+}
+.ccs2{
+    margin-top: -20px;
+    margin-left: -25px;
+    list-style: none;
+  
+   
+}
+.ccs3{
+    margin-top: -20px;
     
+}
+
+.cc a{
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+    overflow: hidden;
+    transition: color 200ms ease-out 0s;
+    font-family: "Nunito Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+#support{
+    /* display: block; */
+    margin-left: -50px;
+}
+.linking {
+    list-style: none;
+    display: flex;
+    margin-left: -25px;
+}
+.linking img{
+    opacity:0.5;
+}
+
+.end{
+    display: flex;
+    justify-content: space-between;
+}
+.end div img{
+    margin-top: 15px;
+    width: 122px;
+    height: 34px;
+    margin-left: 170px;
+}
+.end img{
+    margin-top: -50px;
+    width: 190px;
+    height: 120px;
+    margin-right: 100px;
+}
+hr{
+    margin-left: 170px;
+    width: 850px;
 }
